@@ -27,7 +27,7 @@ body {
   justify-content: space-between;
 }
 
-.steps .step {
+.steps div {
   height: 40px;
   aspect-ratio: 1;
   background-color: #e7e7e7;
@@ -37,7 +37,7 @@ body {
   font-size: 18px;
 }
 
-.steps .step.active {
+.steps div.active {
   background-color: #7950f2;
   color: #fff;
 }
@@ -81,4 +81,9 @@ body {
   font-size: 40px;
   color: inherit;
   background: none;
+  transition: color 0.2s;
+}
+
+.close-btn:hover {
+  color: #7950f2;
 }
