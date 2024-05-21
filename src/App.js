@@ -1,10 +1,16 @@
+const messages = [
+  "Learn React ⚛️",
+  "Apply for jobs 💼",
+  "Invest your new income 🤑",
+];
+
 export default function App() {
   return (
     <>
       <button className="close-btn">&times;</button>
       <div className="container">
         <div className="steps">
-          <div className="step">1</div>
+          <div className="step active">1</div>
           <div className="step">2</div>
           <div className="step">3</div>
         </div>
