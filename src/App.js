@@ -5,7 +5,7 @@ const messages = [
 ];
 
 export default function App() {
-  const step = 2;
+  const step = 3;
   return (
     <>
       <div className="container">
@@ -16,7 +16,9 @@ export default function App() {
           <div className={step >= 3 ? "active" : ""}>3</div>
         </div>
         <div className="message">
-          <p>Step 1:Learn React</p>
+          <p>
+            Step {step}: {messages[step - 1]}
+          </p>
         </div>
         <div className="actionBtns">
           <button className="btn">Previous</button>
