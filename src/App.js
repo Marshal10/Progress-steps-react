@@ -7,8 +7,8 @@ const messages = [
 export default function App() {
   return (
     <>
-      <button className="close-btn">&times;</button>
       <div className="container">
+        <button className="close-btn">&times;</button>
         <div className="steps">
           <div className="step active">1</div>
           <div className="step">2</div>
